@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.pH-scale {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.pH-scale div {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+    width: 120px;
+}
+
+.strong-acid {
+    background-color: #ff0000; /* Red - strong acid */
+    color: #fff;
+}
+
+.moderate-acid {
+    background-color: #ff6666; /* Light red - moderate acid */
+}
+
+.weak-acid {
+    background-color: #ffcccc; /* Pink - weak acid */
+}
+
+.neutral {
+    background-color: #cccccc; /* Gray - neutral */
+}
+
+.weak-alkaline {
+    background-color: #ccffcc; /* Light green - weak alkaline */
+}
+
+.moderate-alkaline {
+    background-color: #66cc66; /* Green - moderate alkaline */
+    color: #fff;
+}
+
+.strong-alkaline {
+    background-color: #00cc00; /* Dark green - strong alkaline */
+    color: #fff;
+}

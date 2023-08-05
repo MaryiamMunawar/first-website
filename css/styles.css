@@ -1,0 +1,12 @@
+h1~ul {
+    background-color:darkcyan;
+}
+h1{
+    color: #2d2ddd;
+    opacity: 0.5;
+}
+#top{
+    display:inline-block;
+    width: 900px;;
+    text-align: right;   /* doesn't work if display is inline*/
+}
